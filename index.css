@@ -69,36 +69,68 @@ nav {
 
 nav .plan {
     background-color: #FF764E;
+    margin-left: 8%;
 }
 
 nav .learn {
     background-color: #5ED3EB;
+    margin:0 24%;
 }
 
 nav .involved {
     background-color: #FFCD69;
+    margin-right: 8%;
 }
 
 nav a {
     color: white;
+    text-decoration: none;
     display: inline-block;
     padding: 1% 0;
     width: 10%;
     text-align: center;
-
-    /* margin: 5%;
-    width: 15%; */
     border-radius: 10px;
 }
 
-#title img {
-    height: 20vh;
-    border-radius: 100%;
+.title{
+    position: relative;
 }
 
-#title h1 {
+.text, .image {display: inline-block;}
+
+.text {
+    width:55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top:15%;
+}
+
+.image {width: 30%;}
+
+.image img {border-radius: 100%;}
+
+h1 {
     font-family: 'Chelsea Market';
     font-size: 3rem;
+}
+
+.title h1 {
+    margin-bottom: 5%;
+}
+
+#info {
+    background-color: #DDB9A3;
+}
+
+#info2 {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 #fire img {
