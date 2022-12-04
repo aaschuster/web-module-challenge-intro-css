@@ -50,6 +50,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
+    /* border: 1px solid black; */
 }
 
 body{
@@ -122,27 +123,30 @@ h1 {
 
 #info {
     background-color: #DDB9A3;
+    color: white;
+    padding: 4%;
 }
 
 #info2 {
     width: 30%;
-    margin: 5% auto;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+#fire, #camper {
+    margin: 5% 0;
 }
 
 .bold {
     font-weight: bold;
 }
 
-#fire img {
-    height: 15vh;
-}
-
-#camper img {
-    height: 15vh;
-}
-
-footer img {
-    height: 20vh;
+#bg-img {
+    background-image: url(assets/footer_img.jpg);
+    height: 30vh;
+    background-size: cover;
+    width: 100%;
 }
 
 footer {
